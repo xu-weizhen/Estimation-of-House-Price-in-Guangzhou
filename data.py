@@ -80,7 +80,7 @@ with open(r'./data.csv', 'a', encoding='utf-8') as f:
 			r = requests.get(url)						# 爬取内容
 			r.encoding = r.apparent_encoding			# 编码
 			html = r.text
-			get_data(html, f, "9ec5c19f76e8dad937a19492c1fd6c18")
+			get_data(html, f, "your key")
 		except:
 			pass
 	f.close()
